@@ -32,3 +32,5 @@ for i in range(n):
     r = requests.post(str_all, data=payload, headers=header)
     time.sleep(random.randint(1, 5))
     array = []
+
+print("finish spam!!!")
